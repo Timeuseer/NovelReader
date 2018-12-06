@@ -6,7 +6,7 @@ import wx
 import wx.xrc
 import serverui_login
 import serverui_add_books
-import serverui_users
+import serverui_books
 import serverui_readbook
 import serverui_dlbook
 import serverui_upbooks
@@ -78,7 +78,7 @@ class readserverui_main(wx.Frame):
     def show_users(self, event):
         app = wx.App()
 
-        main_win = serverui_users.users(None)
+        main_win = serverui_books.books(None)
         main_win.Show()
         self.Destroy()
         app.MainLoop()
