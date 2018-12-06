@@ -30,12 +30,12 @@ class readserverui_main(wx.Frame):
 
         bSizer4.AddSpacer(20)
 
-        self.show_user = wx.Button(self, wx.ID_ANY, u"阅读书籍", wx.DefaultPosition, wx.DefaultSize, 0)
+        self.show_user = wx.Button(self, wx.ID_ANY, u"查看书籍", wx.DefaultPosition, wx.DefaultSize, 0)
         bSizer4.Add(self.show_user, 0, wx.ALIGN_CENTER | wx.EXPAND, 5)
 
         bSizer4.AddSpacer(25)
 
-        self.show_books = wx.Button(self, wx.ID_ANY, u"阅读已有书籍", wx.DefaultPosition, wx.DefaultSize, 0)
+        self.show_books = wx.Button(self, wx.ID_ANY, u"阅读书籍", wx.DefaultPosition, wx.DefaultSize, 0)
         bSizer4.Add(self.show_books, 0, wx.ALIGN_CENTER | wx.EXPAND, 5)
 
         bSizer4.AddSpacer(25)
